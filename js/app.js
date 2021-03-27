@@ -32,6 +32,8 @@ galleryBtn.addEventListener('click', function() {
     HomeDisplay.style.display = 'none'
     const displayPrice = document.querySelector('.price-area');
     displayPrice.style.display = 'none'
+    const DisplayAbout = document.querySelector('.about-area')
+    DisplayAbout.style.display = 'none'
 
 })
 
