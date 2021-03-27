@@ -12,7 +12,11 @@
         -moz-transition: 1s;
         -ms-transition: 1s;
         -o-transition: 1s;
-        background-color: #111111 !important;
+        background-color: #111111!important;
+        z-index: 99999;
+    }
+    nav {
+        background-color: transparent;
     }
     .logo {
         display: none;
@@ -44,6 +48,7 @@
         position: fixed;
         left: 10px;
         top: 10px;
+        z-index: 99999;
     }
     .home-area {
         width: 100%;
@@ -103,6 +108,7 @@
     /* price page design  */
     .price-area {
         width: 100%;
+        height: 100vh;
     }
     .pricing-main {
         display: flex;
